@@ -1,2 +1,3 @@
 # circleci-python3.6-java8
-custom Docker ubuntu image with java 8 and python3.6
+custom Docker ubuntu image with java 8 and python3.6 for circle ci.
+Currently Circle ci official image only provides up to Ubuntu 14.04, apt-get java 8 is not working on ubuntu 14.04. This docker image based on Ubuntu, with Java 8(oracle openjdk) and python 3.6(with `pip` module preinstalled).
