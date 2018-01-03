@@ -1,6 +1,7 @@
-# import python3.6 from circleci with pip preinstalled
-FROM circleci/python:3.6.1
+# import python3.6 from circleci with browsers and pip preinstalled
+FROM circleci/python:3.6-browsers
 
+RUN sudo apt-get install xsel
 # Setup oracle java 8
 RUN sudo mkdir /opt/jdk
 

@@ -18,3 +18,9 @@ Use it in `Circle ci`:
 docker:
     - image: hancheng/circleci-python3.6-java8
 ```
+
+With tags `browsers` the docker image has browsers pre-installed. Use it in `Circle ci`:
+```
+docker:
+    - image: hancheng/circleci-python3.6-java8:browsers
+```
